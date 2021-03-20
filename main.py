@@ -46,3 +46,12 @@ for j in range(i,i+number_of_employees):
 with open('output.txt', 'w') as file:
 
     file.write("The goodies selected for distribution are: \n")
+    file.write("\n")
+    file.write("\n")
+    file.write("\n")
+
+    for j in range(i, i + number_of_employees):
+        file.write(name[j])
+        file.write(" ")
+        file.write(str(val[j]))
+        file.write("\n")
